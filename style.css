@@ -1,0 +1,15 @@
+body{
+    font-family: Garamond, serif;;
+    background-color: rgb(40, 40, 40);
+    color: beige;
+}
+li.homeItem{
+    font-size: 20px;
+    font-weight: 800;
+    
+}
+
+a {
+    color: beige;
+    text-decoration: dashed;
+}
