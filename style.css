@@ -2,6 +2,7 @@ body{
     font-family: Garamond, serif;;
     background-color: rgb(40, 40, 40);
     color: beige;
+    text-align: center;
 }
 li.homeItem{
     font-size: 20px;
@@ -13,3 +14,16 @@ a {
     color: beige;
     text-decoration: dashed;
 }
+.ing, .ins{
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px beige dashed;
+    padding: 30px;
+    margin: 30px;
+    width: 500px;
+    font-size: 24px;
+    text-align: left;
+}
+/* .ins{
+    display: inline-block;
+} */
