@@ -14,16 +14,24 @@ a {
     color: beige;
     text-decoration: dashed;
 }
-.ing, .ins{
-    display: inline-block;
-    box-sizing: border-box;
-    border: 2px beige dashed;
+.container {
+    text-align: center; /* This centers the inline-block elements */
     padding: 30px;
-    margin: 30px;
-    width: 500px;
+}
+.ing-box, .ins-box {
+    display: inline-block; /* Makes the divs sit side by side */
+    vertical-align: top; /* Align them at the top */
+    box-sizing: border-box;
+    padding: 30px;
+    margin: 30px; /* Optional spacing between boxes */
+    width: 600px; /* Set width for both boxes */
     font-size: 24px;
     text-align: left;
 }
-/* .ins{
+.ins, .ing{
+    border: 2px beige dashed;
+    padding: 5px 30px;
+}
+.ins-box{
     display: inline-block;
-} */
+}
